@@ -27,7 +27,7 @@ function renderProducts() {
             <img src="${product.img}" alt="${product.name}" class="product-image" loading="lazy">
             <div class="product-info">
                 <h3>${product.name}</h3>
-                <p class="price">₹${product.price.toFixed(2)}</p>
+                <p class="price"> ₹ ${product.price.toFixed(2)}</p>
                 <button class="add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
             </div>
         `;
